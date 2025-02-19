@@ -32,5 +32,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm8650-common/sm8650-common-vendor.mk)
