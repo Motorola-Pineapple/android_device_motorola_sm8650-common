@@ -32,6 +32,9 @@ TARGET_CPU_VARIANT_RUNTIME := kryo385
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := pineapple
